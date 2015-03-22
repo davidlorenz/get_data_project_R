@@ -11,19 +11,19 @@ subject - activity combination.
 
 Summary of script functionality/specific details:
 * loads and parses column/row identifier files:
-- UCI_HAR_Dataset/features.txt - 561 x 2 -  maps data columns to feature (variable) names
-- UCI_HAR_Dataset/activity_labels.txt - 6 x 2 - maps activity integer IDs to descriptions
+	- UCI_HAR_Dataset/features.txt - 561 x 2 -  maps data columns to feature (variable) names
+	- UCI_HAR_Dataset/activity_labels.txt - 6 x 2 - maps activity integer IDs to descriptions
 
 * loads and parses raw data/row identifier files in test/ and train/ directories:
-- UCI_HAR_Dataset/train/X_train.txt - 7352 x 561 - raw train data set
-- UCI_HAR_Dataset/train/subject_train.txt - 7352 x 1 - maps train data rows to subject IDs
-- UCI_HAR_Dataset/train/y_train.txt - 7352 x 1 - maps train data rows to activity IDs
+	- UCI_HAR_Dataset/train/X_train.txt - 7352 x 561 - raw train data set
+	- UCI_HAR_Dataset/train/subject_train.txt - 7352 x 1 - maps train data rows to subject IDs
+	- UCI_HAR_Dataset/train/y_train.txt - 7352 x 1 - maps train data rows to activity IDs
 
-- UCI_HAR_Dataset/test/X_test.txt - 2947 x 561 - raw test data set
-- UCI_HAR_Dataset/test/subject_test.txt - 2947 x 1 - maps test data rows to subject IDs
-- UCI_HAR_Dataset/test/y_test.txt - 2947 x 1 - maps test data rows to activity IDs
+	- UCI_HAR_Dataset/test/X_test.txt - 2947 x 561 - raw test data set
+	- UCI_HAR_Dataset/test/subject_test.txt - 2947 x 1 - maps test data rows to subject IDs
+	- UCI_HAR_Dataset/test/y_test.txt - 2947 x 1 - maps test data rows to activity IDs
 
-- train data has 21 unique subjects, test data, 9 unique subjects, consistent with
+	- train data has 21 unique subjects, test data, 9 unique subjects, consistent with
     raw data README.txt
 
 * custom function "fileParse" uses readLines() to import lines as character vector, 
