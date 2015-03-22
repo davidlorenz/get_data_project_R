@@ -34,9 +34,12 @@ data files (66 data variables total):
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
+Acceleromater variables (named with "_Acc_") are in standard gravity units (g); gyroscope
+variables (named with "_Gryo_") are in radians/sec.
+
 where X,Y,Z denote separate measurements in each of three spatial axes. Identifier 
 variables include: 
-*  SubjectID - integer 1 - 30 subject identifier
+* SubjectID - integer 1 - 30 subject identifier
 * TestTrain - categorical TEST/TRAIN denoting whether subject in test or training group
 * ActivityID - integer 1 - 6 activity identifier
 * Activity - categorical activity description: WALKING, WALKING_UPSTAIRS, 
