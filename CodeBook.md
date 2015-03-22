@@ -16,30 +16,30 @@ variable, one row per observation. Selected variables included the mean (-mean()
 standard deviation (-std()) for each of the folowing measurements provided in the raw
 data files (66 data variables total):
 
-  tBodyAcc-XYZ
-  tGravityAcc-XYZ
-  tBodyAccJerk-XYZ
-  tBodyGyro-XYZ
-  tBodyGyroJerk-XYZ
-  tBodyAccMag
-  tGravityAccMag
-  tBodyAccJerkMag
-  tBodyGyroMag
-  tBodyGyroJerkMag
-  fBodyAcc-XYZ
-  fBodyAccJerk-XYZ
-  fBodyGyro-XYZ
-  fBodyAccMag
-  fBodyAccJerkMag
-  fBodyGyroMag
-  fBodyGyroJerkMag
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 where X,Y,Z denote separate measurements in each of three spatial axes. Identifier 
 variables include: 
-  SubjectID - integer 1 - 30 subject identifier
-  TestTrain - categorical TEST/TRAIN denoting whether subject in test or training group
-  ActivityID - integer 1 - 6 activity identifier
-  Activity - categorical activity description: WALKING, WALKING_UPSTAIRS, 
+*  SubjectID - integer 1 - 30 subject identifier
+* TestTrain - categorical TEST/TRAIN denoting whether subject in test or training group
+* ActivityID - integer 1 - 6 activity identifier
+* Activity - categorical activity description: WALKING, WALKING_UPSTAIRS, 
     WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 Output file data were summarized for each Subject - Activity using the mean of all 
